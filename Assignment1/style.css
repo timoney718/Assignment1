@@ -1,0 +1,214 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+	margin:5% 10%;
+	background-color: #404040;
+}
+
+header{
+	text-align: center;
+}
+
+footer{
+	clear: both;
+	font-weight: 300;
+	font-size: 13px;
+}
+
+h1{
+	color: #996600;
+	padding-bottom: .5em;
+}
+
+h2{
+	font-size: 1.5em;
+	padding-bottom: .5em;
+}
+
+h3{
+	font-size: 1.3em;
+	color: #996600;
+	padding-bottom: .5em;
+}
+
+a{
+	text-decoration: none; 
+}
+
+p{
+	text-indent: 25px;
+	text-align: left;
+	color: #e3e3e3;
+}
+
+li{
+	color:#e3e3e3;
+}
+.nav{
+	text-align:center;
+	width:100%;
+}
+
+.nav ul{
+	margin:auto;
+	padding:0;
+	list-style-type: none; 
+	font-size:22px;  
+	font-family:"Gill Sans";
+}
+
+.nav li{
+	padding: .20em 0;
+	text-align: center;
+
+}
+
+.nav a{
+	text-decoration: none; 
+	color:#1a1a1a;
+}
+
+.nav a:hover{
+	color: #999999;
+}
+
+.nav a:active{
+	color:#e6e6e6;
+}
+
+.imgleft{
+	border: 8px;
+    border-style: ridge;
+    border-color: #996600;
+    float: left;  
+    clear:left;
+    margin: 2em 2em 1em 0;
+    padding: 10px;
+    max-width: 100%;
+    height:auto;
+}
+
+.wrapper{
+	height:100%;
+	max-width: 100%;
+
+}
+
+#teaching img{
+	max-width: 100%;
+	padding-bottom: .5em;
+}
+ #teaching li{
+ 	font-size: 1.2em;
+ 	padding-bottom: .1em;
+ }
+
+#about img{
+	max-width: 100%;
+	padding:0 0 1.5em 0;
+
+}
+
+#events{
+	margin:0 auto;
+	clear:both;
+}
+#about p{
+	font-size: 1.2em;
+}
+
+#events p{
+	text-indent: 0;
+	font-size: 1.2em;
+
+}
+
+.eventimg{
+	max-width: 100%;
+	display: block;
+	margin:0 auto;
+	padding:3em 0 1.5em 0;
+}
+
+.page{
+	margin:0 auto;
+}
+
+.aboutp{
+	padding-top:.75em; 
+	font-size:1.15em;
+}
+
+.imgabout{
+		padding: 0;
+		display: block;
+		margin:0 auto;
+	}
+
+
+
+@media (min-width: 768px){
+	.nav{
+		text-align: center;
+	}
+
+	.nav li{
+		display:inline-block;
+		padding:1em;
+	}
+
+	.col-2{
+		width:45%;
+		float: left;
+		margin:0 4% 0 0;
+	}
+
+	
+
+	.imgleft1{
+		width:40%;
+    margin-right: 3%;
+    border: 8px;
+    border-style: ridge;
+    border-color: #996600;
+    float: left;  
+    clear:left;
+    margin: 2em 2em 1em 0;
+    padding: 10px;
+    max-width: 100%;
+    height:auto;
+	}
+	.eventimg{
+	max-width: 100%;
+	display: block;
+	margin:2em auto 0 auto;
+	
+}
+	.eventp{
+		width:40%; 
+		float: left; 
+		margin:0 8% 0 6.5%;
+	}
+
+	.aboutd{
+	padding-top:2.5em; 
+	font-size:1.15em;
+}
+	#testp{
+		font-size: 1.15em;
+	}
+
+}
+
+
+
+
+
+
+
+
+
