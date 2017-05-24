@@ -1,0 +1,269 @@
+body{
+	background-color: #d9d9d9;
+}
+
+.container-fluid{
+	background-color: #404040;
+	color:#fff;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+
+
+.navbar-default .navbar-brand {
+    color: #fff;
+    text-align: center;
+    padding:7px;
+    margin-right: 1em;
+}
+
+.navbar{
+	margin-bottom: 0;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #d9d9d9;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a:active {
+    color: black;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+    color: #d9d9d9;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:active {
+    color: black;
+}
+
+.navbar-nav .open .dropdown-menu {
+    position: static;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    background-color:#666666;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.dropdown-menu .divider {
+    height: 0px;
+    margin: 6px 0;
+    padding:.5px;
+    overflow: hidden;
+    background-color: #e5e5e5;
+}
+
+.active a{
+	background-color: #404040;
+}
+
+.panel-default>.panel-heading {
+    color: #fff;
+    background-color: #404040;
+    border-color: #ddd;
+}
+
+.panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.5em;
+    color: inherit;
+    padding: 1%;
+}
+
+.panel-default>.panel-heading+.panel-collapse>.panel-body {
+    background-color: #d9d9d9;
+    padding:0;
+}
+
+
+.headline{
+	background-color: #404040;
+	color: #fff;
+	font-size: 1.5em;
+	padding:3%;
+	text-align: center;
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+
+.panel{
+	text-align: center;
+}
+
+ul{
+	list-style-type: none;
+	margin:10px auto;
+	padding-left: 0;
+}
+
+ul li{
+	max-width: 100%;
+	padding:8px 0;
+}
+
+ul li a{
+	display: block;
+	color: #404040;
+}
+
+ul li a:active{
+	color: #fff
+
+}
+
+
+#aboutcuny{
+	text-align: center;
+	color:#404040;
+	font-size: 2em;
+	margin:5%;
+}
+
+#study{
+	text-align: center;
+	color:#404040;
+	font-size: 1.2em;
+	margin:4% 5% 0 5%;
+}
+
+#study img{
+	max-width: 350px;
+	height:auto;
+	margin:0 0 3% 0;
+}
+
+.carousel-inner img{
+	margin:auto;
+}
+
+a:hover .headline{
+	color: black;
+}
+
+footer{
+	margin:7% auto;
+}
+
+footer img{
+	max-width: 80px;
+	height: auto;
+}
+
+
+.jumbotron{
+    background-color:#d89c9c;
+    text-align:center;
+}
+
+
+
+section.commu{
+        position: relative;
+    background-size: cover;
+    background-position: center;
+    background-image: url(images/COMMUICATION.jpg);
+    padding: 250px 0;
+}
+
+section.anni{
+        position: relative;
+    background-size: cover;
+    background-position: center;
+    background-image: url(images/anime.jpg);
+    padding: 250px 0;
+}
+
+section.graphic{
+          position: relative;
+    background-size: cover;
+    background-position: center;
+    background-image: url(images/GRAPHIC.jpg);
+    padding: 250px 0;
+    
+}
+    section.tech{
+          position: relative;
+    background-size: cover;
+    background-position: center;
+    background-image: url(images/tech.jpg);
+    padding: 250px 0;
+}
+    
+    
+    
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+	.carousel-inner img{
+	max-height: 500px;
+}
+
+.headline{
+	clear:both;
+}
+
+#aboutcuny{
+	display:block;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.col-sm-6 {
+    width: 90%;
+
+}
+
+.panel-group {
+    margin-bottom: 0;
+}
+
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.navbar-left {
+    float: right!important;
+}
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    position: relative;
+    min-height: 1px;
+    padding: 15px;
+    
+}
+
+.col-sm-12{
+    padding:3.5%;
+}
+
+
+}
